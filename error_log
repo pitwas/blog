@@ -1,0 +1,8 @@
+[26-Jun-2018 13:39:38 UTC] PHP Warning:  require(/home/pitwaspa/public_html/blogvendor/autoload.php): failed to open stream: No such file or directory in /home/pitwaspa/public_html/blog/index.php on line 24
+[26-Jun-2018 13:39:38 UTC] PHP Warning:  require(/home/pitwaspa/public_html/blogvendor/autoload.php): failed to open stream: No such file or directory in /home/pitwaspa/public_html/blog/index.php on line 24
+[26-Jun-2018 13:39:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/pitwaspa/public_html/blogvendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/pitwaspa/public_html/blog/index.php on line 24
+[26-Jun-2018 13:39:40 UTC] PHP Warning:  require(/home/pitwaspa/public_html/blogvendor/autoload.php): failed to open stream: No such file or directory in /home/pitwaspa/public_html/blog/index.php on line 24
+[26-Jun-2018 13:39:40 UTC] PHP Warning:  require(/home/pitwaspa/public_html/blogvendor/autoload.php): failed to open stream: No such file or directory in /home/pitwaspa/public_html/blog/index.php on line 24
+[26-Jun-2018 13:39:40 UTC] PHP Fatal error:  require(): Failed opening required '/home/pitwaspa/public_html/blogvendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/pitwaspa/public_html/blog/index.php on line 24
+[27-Jun-2018 12:37:12 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\PostController::update() in /home/pitwaspa/public_html/blog/app/Http/Controllers/PostController.php on line 91
+[30-Jun-2018 10:25:46 UTC] PHP Fatal error:  Cannot use [] for reading in /home/pitwaspa/public_html/blog/storage/framework/views/14e6527f8c7c5b6abcc09564f3b213afed54acc6.php on line 77

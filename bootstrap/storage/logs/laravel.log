@@ -1,0 +1,24 @@
+[2018-06-26 12:37:54] production.ERROR: The "" directory does not exist. {"exception":"[object] (InvalidArgumentException(code: 0): The \"\" directory does not exist. at /home/pitwaspa/public_html/blog/vendor/symfony/finder/Finder.php:547)
+[stacktrace]
+#0 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->in(false)
+#1 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#2 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 /home/pitwaspa/public_html/blog/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2018-06-26 12:38:15] production.ERROR: The "" directory does not exist. {"exception":"[object] (InvalidArgumentException(code: 0): The \"\" directory does not exist. at /home/pitwaspa/public_html/blog/vendor/symfony/finder/Finder.php:547)
+[stacktrace]
+#0 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->in(false)
+#1 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#2 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/pitwaspa/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 /home/pitwaspa/public_html/blog/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
